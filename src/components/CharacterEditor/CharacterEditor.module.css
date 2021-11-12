@@ -4,8 +4,9 @@
 }
 
 .maxWidthWrapper {
-  max-width: 1024px;
-  margin: 0 auto;
+  position: relative;
+  /* max-width: 1024px; */
+  /* margin: 0 auto; */
 }
 
 .header {
@@ -27,11 +28,13 @@
 }
 
 .characterWrapper {
-  min-height: 500px;
   position: fixed;
-  top: 0px;
-  right: 0;
-  width: 35%;
+  top: 15%;
+
+  min-height: 500px;
+  left: 60%;
+  bottom: 5%;
+  /* width: 35%; */
 }
 
 .controlColumn {
@@ -40,3 +43,10 @@
   white-space: nowrap;
 }
 
+.perspectiveBox {
+  position: fixed;
+  top: 60%;
+  height: 40%;
+  background: hsl(195deg, 20%, 86%);
+  width: 100%;
+}
